@@ -1,0 +1,15 @@
+$primary-color: #00d1b2;
+$bg-color: #f4f3f9;
+$ff: 'Roboto', sans-serif;
+$fs: 62.5%;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $fs;
+  font-family: $ff;
+}
