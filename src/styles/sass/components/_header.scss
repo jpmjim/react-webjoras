@@ -2,39 +2,57 @@
   width: 100%;
   height: 100px;
   background-color: $bg-color;
+  padding: 10px;
   @include flex;
-  &__name {
+  .header__name {
     font-size: 5rem;
     color: $primary-color;
   }
-  &__nav{
-    width: 40vw;
-    ul{
-      @include flex;
-      font-size: 1.7rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      :hover {
-        cursor: pointer;
+  .list__menu {
+    font-size: 4rem;
+  }
+  .header__nav{
+    display: none;
+  }
+  .header__search{
+    display: none;
+  }
+  @media (min-width: 1080px) {
+    .list__menu{
+      display: none;
+    }
+    .header__nav{
+      display: initial;
+      width: 40vw;
+      ul{
+        @include flex;
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        :hover {
+          cursor: pointer;
+          color: $primary-color;
+        }
+      }
+    }
+    .header__search {
+      display: initial;
+      input {
+        height: 40px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px solid black;
+        font-size: 1.8rem;
+        outline: none;
         color: $primary-color;
+        margin-right: 10px;
+        background-color: $bg-color ;
+      }
+      .logo__search{
+        font-size: 2rem;
       }
     }
   }
-  &__search {
-    input {
-      height: 40px;
-      border-top: 0;
-      border-left: 0;
-      border-right: 0;
-      border-bottom: 2px solid black;
-      font-size: 1.8rem;
-      outline: none;
-      color: $primary-color;
-      margin-right: 10px;
-      background-color: $bg-color ;
-    }
-    .logo__search{
-      font-size: 2rem;
-    }
-  }
 }
+
