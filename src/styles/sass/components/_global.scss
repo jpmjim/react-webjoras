@@ -1,0 +1,25 @@
+$primary-color: #0db99e;
+$bg-color: #f4f3f9;
+$ff: 'Oswald', sans-serif;
+$fs: 62.5%;
+
+@mixin flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: $fs;
+  font-family: $ff;
+  
+}
