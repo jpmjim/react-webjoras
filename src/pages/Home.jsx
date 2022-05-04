@@ -2,7 +2,11 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <h1>Jimmy</h1>
+    <main>
+      <section className='inicio'>
+
+      </section>
+    </main>
   );
 }
 
