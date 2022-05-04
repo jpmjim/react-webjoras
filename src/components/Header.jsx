@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <header className='header'>
       <h1 className='header__name'>JORAS</h1>
-      <i className="bi bi-list list__menu"></i>
+      <a className='header__icon' href=""><i className="bi bi-list "></i></a>
       <nav className='header__nav'>
         <ul>
           <li><a href=""></a>Inicio</li>
