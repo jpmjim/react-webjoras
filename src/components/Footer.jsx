@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__redes'>
-        <h2>Nuestras redes:</h2>
+        <h2>Nuestras redes :</h2>
         <nav className='footer__nav'>
           <a className='bi bi-facebook' href=""></a>
           <a className='bi bi-youtube' href=""></a>

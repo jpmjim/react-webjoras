@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../components/About';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem vel recusandae placeat accusantium reiciendis minus aperiam laborum iste quisquam iusto blanditiis, nemo aspernatur incidunt, temporibus voluptas, natus architecto est ut!</p>
         </div>
       </section>
+      <About />
     </main>
   );
 }
