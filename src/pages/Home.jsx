@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../components/About';
 import Service from '../components/Service';
+import Portfolio from '../components/Portfolio';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       </section>
       <About />
       <Service />
+      <Portfolio />
     </main>
   );
 }
