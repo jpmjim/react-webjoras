@@ -1,10 +1,12 @@
 import React from 'react';
+import error from '../assets/img/not-found.png';
 
 
 const NotFound = () => {
   return (
     <div className='error'>
-      No encontrado, error 404
+      <p>No encontrado, error 404</p>
+      <img className='error__logo' src={error} alt="error" />
     </div>
   );
 }
