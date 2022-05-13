@@ -7,4 +7,26 @@
     font-size: 3rem;
     color: $primary-color;
   }
+  &__miembro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 30px;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0.4em 0.4em 1em $primary-color,
+                -0.2em -0.2em 1em $primary-color;
+    border-radius: 20px;
+    background-color: #fcfcfc;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 2rem;
+    }
+  }
 }
