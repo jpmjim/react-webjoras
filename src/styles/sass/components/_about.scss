@@ -7,13 +7,22 @@
     font-size: 3rem;
     color: $primary-color;
   }
+  .miembros {
+    width: 95%;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   &__miembro {
+    scroll-snap-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 60px 30px;
-    width: 250px;
+    margin: 30px ;
+    width: 500px;
+    min-width: 250px;
     height: 350px;
     box-shadow: 0.4em 0.4em 1.6em white,
                 -0.2em -0.2em 1.5em white;
