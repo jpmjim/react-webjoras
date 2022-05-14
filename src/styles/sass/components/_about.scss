@@ -8,7 +8,7 @@
     color: $primary-color;
   }
   .miembros {
-    width: 95%;
+    width: 100%;
     overflow: scroll;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px ;
+    margin: 30px 20px;
     width: 500px;
     min-width: 250px;
     height: 350px;
