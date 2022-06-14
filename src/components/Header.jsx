@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header className='header'>
-      <h1 className='header__name'>JORAS</h1>
+      <h1 className='header__name'><a href="/">JORAS</a></h1>
       <a className='header__icon' href=""><i className="bi bi-list "></i></a>
       <nav className='header__nav'>
         <ul>

@@ -8,7 +8,9 @@
   align-items: center;
   &__name {
     font-size: 3.5rem;
-    color: $primary-color;
+    a {
+      color: $primary-color;
+    }
   }
   &__icon {
     font-size: 3rem;
