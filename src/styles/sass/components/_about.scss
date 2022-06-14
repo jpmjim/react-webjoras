@@ -13,6 +13,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &__description{
+      font-size: 2.5rem;
+    }
   }
   &__miembro {
     scroll-snap-align: center;
@@ -21,13 +24,13 @@
     justify-content: center;
     align-items: center;
     margin: 30px 20px;
-    width: 500px;
+    width: 250px;
     min-width: 250px;
     height: 350px;
-    box-shadow: 0.4em 0.4em 1.6em white,
+    box-shadow: 0.4em 0.4em 1.6em #d2dce9,
                 -0.2em -0.2em 1.5em white;
-    border-radius: 20px;
-    background-color: cyan;
+    border-radius: 10px;
+    background-color: #fcfcfc;
     img {
       width: 100px;
       height: 100px;
